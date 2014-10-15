@@ -1,0 +1,4 @@
+#! /bin/sh
+groupadd ${deb.user}
+useradd --system ${deb.user} -g ${deb.user}
+adduser ${deb.user} sudo

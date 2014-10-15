@@ -1,0 +1,9 @@
+Package: ${project.artifactId}
+Version: ${project.version}
+Section: misc
+Priority: optional
+Architecture: all
+Depends: openjdk-7-jre,jsvc
+Maintainer: ${project.deb.maintainer}
+Description: ${project.description}
+Distribution: development

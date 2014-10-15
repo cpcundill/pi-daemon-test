@@ -1,0 +1,4 @@
+#! /bin/sh
+groupadd pi-daemon-test
+useradd --system pi-daemon-test -g pi-daemon-test
+adduser pi-daemon-test sudo

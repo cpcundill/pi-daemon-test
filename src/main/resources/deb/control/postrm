@@ -1,0 +1,4 @@
+#! /bin/sh
+userdel -r ${deb.user}
+groupdel ${deb.user}
+update-rc.d -f ${project.artifactId} remove

@@ -1,0 +1,20 @@
+Format: 1.8
+Date: Wed, 15 Oct 2014 22:10:50 +0100
+Source: daemon-test
+Binary: daemon-test
+Architecture: all
+Version: 1.0-SNAPSHOT
+Distribution: development
+Urgency: low
+Maintainer: ${project.deb.maintainer}
+Changed-By: ${project.deb.maintainer}
+Description:
+ daemon-test - A test project to prove a Java app can be installed as a daemon service on the Raspberry Pis
+Changes:
+ daemon-test (1.0-SNAPSHOT) development; urgency=low
+Checksums-Sha1:
+ 91b80f748aaba35b046f3767a43e62214fba9003 407100 daemon-test_1.0~SNAPSHOT_all.deb
+Checksums-Sha256:
+ 2dbbd4c3209cba1d226c939ce93d5ad5875a933161bedb081d3142a867f404c3 407100 daemon-test_1.0~SNAPSHOT_all.deb
+Files:
+ 5c179a4bbb08a7344c70fb0218850d8f 407100 misc optional daemon-test_1.0~SNAPSHOT_all.deb

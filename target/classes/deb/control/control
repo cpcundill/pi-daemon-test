@@ -1,0 +1,9 @@
+Package: daemon-test
+Version: 1.0-SNAPSHOT
+Section: misc
+Priority: optional
+Architecture: all
+Depends: openjdk-7-jre,jsvc
+Maintainer: ${project.deb.maintainer}
+Description: A test project to prove a Java app can be installed as a daemon service on the Raspberry Pis
+Distribution: development

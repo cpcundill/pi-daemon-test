@@ -1,0 +1,4 @@
+#! /bin/sh
+userdel -r pi-daemon-test
+groupdel pi-daemon-test
+update-rc.d -f daemon-test remove
